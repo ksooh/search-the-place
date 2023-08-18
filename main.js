@@ -5,7 +5,7 @@ var infowindow = new kakao.maps.InfoWindow({zIndex:1});
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
         center: new kakao.maps.LatLng(37.566826, 126.9786567), // 지도의 중심좌표
-        level: 4 // 지도의 확대 레벨
+        level: 6 // 지도의 확대 레벨
     };  
 
 // 지도를 생성합니다
@@ -23,7 +23,6 @@ map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 var geocoder = new kakao.maps.services.Geocoder();
 
 //, iwContent: '<a href="" style="color:blue" target="_blank">교육신청</a>'
-
 
 var positions = [
   
@@ -57,58 +56,25 @@ var positions = [
   { title: '구립불광노인복지관', address: '서울특별시 은평구 연서로32길 17-11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002144" style="color:blue" target="_blank">교육신청</a>' },
   
   //종로구
-  { title: '종로노인종합 사회복지관<br>(3층)', address: '서울특별시 종로구 율곡로19길 17-8',
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'
- },
-  { title: '종로노인종합 사회복지관 무악센터', address: '서울특별시 종로구 통일로14길 30' ,
-    iwContent:
-      '<a href="" style="color:red" target="_blank">교육신청</a>'
-},
-  { title: '종로장애인복지관<br>(3층)', address: '서울특별시 종로구 자하문로89 세종마을 푸르메센터' ,
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'
-},
-  { title: '서울노인복지센터<br>(2층 컴퓨터교실)', address: '서울특별시 종로구 삼일대로 467' ,
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'
-},
-  { title: '종로장애인가족지원센터<br>(교육장:2층)', address: '서울특별시 종로구 삼청로 91-1' ,
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'
-},
+  { title: '종로노인종합 사회복지관<br>(3층)', address: '서울특별시 종로구 율곡로19길 17-8',iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '종로노인종합 사회복지관 무악센터', address: '서울특별시 종로구 통일로14길 30' ,iwContent:'<a href="" style="color:red" target="_blank">교육신청</a>'},
+  { title: '종로장애인복지관<br>(3층)', address: '서울특별시 종로구 자하문로89 세종마을 푸르메센터' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '서울노인복지센터<br>(2층 컴퓨터교실)', address: '서울특별시 종로구 삼일대로 467' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '종로장애인가족지원센터<br>(교육장:2층)', address: '서울특별시 종로구 삼청로 91-1' , iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'},
     
 
-
-
-
   //중구
-  { title: '중림종합사회복지관', address: '서울특별시 중구 서소문로6길 16' ,
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>'
-},
-  { title: '신당누리센터 누리도서관<br>(1층 교육실)', address: '서울특별시 중구 다산로33길 3',
-    iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>'
- },
+  { title: '중림종합사회복지관', address: '서울특별시 중구 서소문로6길 16' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '신당누리센터 누리도서관<br>(1층 교육실)', address: '서울특별시 중구 다산로33길 3',iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>' },
   { title: '유락종합사회복지관<br>(6층)', address: '서울특별시 중구 퇴계로 460' ,
     iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000652" style="color:blue" target="_blank">교육신청</a>'
-},
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000652" style="color:blue" target="_blank">교육신청</a>'},
   { title: '한국여성생활연구원<br>(가톨릭회관 522호)', address: '서울특별시 중구 명동길 80' ,
     iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000215" style="color:blue" target="_blank">교육신청</a>'
-},
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000215" style="color:blue" target="_blank">교육신청</a>'},
   { title: '서울시민청 스마트서울전시관<br>(지하1층)', address: '서울특별시 중구 세종대로 110' ,
     iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr//edc/crse/plcdtl.do?&sch_edc_place_id=20210001127" style="color:blue" target="_blank">교육신청</a>'
-},
-
-  
-
-
-
-
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr//edc/crse/plcdtl.do?&sch_edc_place_id=20210001127" style="color:blue" target="_blank">교육신청</a>'},
 
 
 
@@ -142,13 +108,6 @@ var positions = [
  },
     
 
-
-
-
-
-
-
-
   //노원구
   { title: '상계종합사회복지관', address: '서울특별시 노원구 덕릉로115나길 25',
     iwContent:
@@ -174,13 +133,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002223" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
-
-
-
-
-
 
 
 
@@ -212,9 +164,6 @@ var positions = [
 
 
 
-
-
-
   //동대문구
   { title: '휘경주민센터<br>(3층)', address: '서울특별시 동대문구 외대역동로6길 3',
     iwContent:
@@ -237,9 +186,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002516" style="color:blue" target="_blank">교육신청</a>'
  },
   	
-
-
-
 
 //성북구
 { title: '시립성북노인종합복지관', address: '서울시 성북구 종암로15길 10',
@@ -268,6 +214,8 @@ var positions = [
  },
 
 
+  
+  
 
   //3권역
   //강동구
@@ -306,11 +254,6 @@ var positions = [
 
 
 
-
-
-
-
-
   //광진구
   { title: '시립광진노인종합복지관<br>(3층 교육실) ', address: '서울특별시 광진구 군자로88' ,
     iwContent:
@@ -336,12 +279,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000087" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
-
-
-
-
 
 
     
@@ -375,9 +312,6 @@ var positions = [
  },
 
 
-
-
-
   //용산구
   { title: '갈월종합사회복지관<br>(3층)', address: '서울특별시 용산구 두텁바위로 25',
     iwContent:
@@ -402,11 +336,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002180" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
-
-
-
 
 
 
@@ -501,9 +430,6 @@ var positions = [
 },
 
 
-
-
-  
   //서초구
   { title: '서초여성가족플라자 서초센터<br>(5층)', address: '서울특별시 서초구 서운로26길 3' ,
     iwContent:
@@ -525,9 +451,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002372" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
-
 
 
  
@@ -629,8 +552,7 @@ var positions = [
  },
   { title: '함사람지역아동센터', address: '서울특별시 구로구 경서로 82-14',
     iwContent:
-      '<a href="
-https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001345" style="color:blue" target="_blank">교육신청</a>'
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001345" style="color:blue" target="_blank">교육신청</a>'
  },
   { title: '우신지역아동센터<br>(우신상가 304호 궁동)', address: '서울특별시 구로구 오리로 1265',
     iwContent:
@@ -706,8 +628,6 @@ https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210
 
 
 
-
-
   //영등포구
   { title: '여의도어르신복지센터<br>(2층)', address: '서울특별시 영등포구 여의대방로 372',
     iwContent:
@@ -738,12 +658,6 @@ https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210
 
 
 
-
-
-
-
-
-
 positions.forEach(function (position) {
   // 주소로 좌표를 검색합니다
   geocoder.addressSearch(position.address, function (result, status) {
@@ -759,8 +673,8 @@ positions.forEach(function (position) {
       //변경한 코드
       var infowindow = new kakao.maps.InfoWindow({
         content:
-          '<div style="text-align:center;padding:10px; ">' + 
-          position.title  +'<br>'+ position.iwContent + 
+          '<div style="text-align:center;padding:10px; ">' +
+          position.title +'<br>'+ position.iwContent + 
           "</div>"
       });
 
