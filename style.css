@@ -14,27 +14,28 @@ header {
 .logo{
   display: inline-block;
   margin-left: 30px; 
-  width: 240px;
-  height: 100px;
+  width: 200px;
+  height: 80px;
 }
  
 .search {
   position: relative;
-  width:500px;
+  width:480px;
 }
 
 .keyword {
-  width: 100%;
+    width: 100%;
     border: 1px solid #20A5E8;
+    height:42px;
     border-radius: 30px;
-    padding: 15px 25px;
-    margin-left: 10px; 
-    margin-top: 53px;
-    font-size: 18px;
+    padding: 15px 20px;
+    margin-left:5px; 
+    margin-top: 46px;
+    font-size: 14px;
 }
 
 .keyword::placeholder {
-  font-size: 18px; /* 원하는 값으로 placeholder 글씨 크기를 설정합니다. 예를 들어, 16px로 설정합니다. */
+  font-size: 14px; /* 원하는 값으로 placeholder 글씨 크기를 설정합니다. 예를 들어, 16px로 설정합니다. */
 }
 
 /* .img-button {
@@ -44,20 +45,21 @@ header {
 } */
 
 #map {
-  width: 1500px;
-  height: 800px;
-  margin-left: 60px;
+  width: 1000px;
+  height: 600px;
+  margin-left: 53px;
+  margin-top:-15px;
 }
 
 .search-btn {
   margin: 0;
   border: none;
   position: absolute;
-  width: 35px;
-  height:35px;
+  width: 30px;
+  height:30px;
   top: 5px;
   right: 0.5px;  
-  margin-top:56px;
+  margin-top:46px;
    margin-right:10px;
   background: url("https://i.ibb.co/k6tmJVT/image.png") no-repeat;
   background-size: contain;
