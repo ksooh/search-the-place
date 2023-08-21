@@ -61,10 +61,10 @@ var positions = [
   { title: '유락종합사회복지관(6층)', address: '서울특별시 중구 퇴계로 460' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000652" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '한국여성생활연구원<br>(가톨릭회관 522호)', address: '서울특별시 중구 명동길 80' ,
+  { title: '한국여성생활연구원', address: '서울특별시 중구 명동길 80' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000215" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '서울시민청 스마트서울전시관<br>(지하1층)', address: '서울특별시 중구 세종대로 110' ,
+  { title: '서울시민청 스마트서울전시관(지하1층)', address: '서울특별시 중구 세종대로 110' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr//edc/crse/plcdtl.do?&sch_edc_place_id=20210001127" style="color:blue" target="_blank">교육신청</a>'},
 
@@ -76,7 +76,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000016" style="color:blue" target="_blank">교육신청</a>'
  },
- { title: '한국복지정보통신협의회(강북)(KT미아빌딩 별관2동 제1강의실)', address: '서울특별시 강북구 솔매로50길 43',
+ { title: '한국복지정보통신협의회(강북)', address: '서울특별시 강북구 솔매로50길 43',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000654" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -106,7 +106,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001124" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '노원구 평생교육원 장미실습장(6단지 종합상가지하1층)', address: '서울특별시 노원구 섬밭로196',
+  { title: '장미실습장', address: '서울특별시 노원구 섬밭로196',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000072" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -261,7 +261,7 @@ var positions = [
  },
 
   //성동구
-  { title: '성동노인종합복지관(2층 컴퓨터실)', address: '서울특별시 성동구 마조로 77' ,
+  { title: '성동노인종합복지관(2층)', address: '서울특별시 성동구 마조로 77' ,
     iwContent:
       '<a href=" https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000114" style="color:blue" target="_blank">교육신청</a>'
 },
@@ -280,11 +280,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001125" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '성동구청 5층 배움터교육장(5층 정보화교육장)', address: '서울특별시 성동구 고산자로 270',
+  { title: '성동구청 5층 배움터교육장', address: '서울특별시 성동구 고산자로 270',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002124" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '왕십리 도선동 주민센터3층(노인복지관 공공복합청사 3층)', address: '서울특별시 성동구 마장로 141',
+  { title: '왕십리 도선동 주민센터3층', address: '서울특별시 성동구 마장로 141',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000113" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -302,7 +302,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002120" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '참나무 배움터(용산제일교회내 참나무방과후교실 1층)', address: '서울 용산구 새창로12길 11-18',
+  { title: '참나무 배움터', address: '서울 용산구 새창로12길 11-18',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002324" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -323,7 +323,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000219" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '신내2동 동주민센터 IT융합교육장(관상복합청사지하1층)', address: '서울특별시 중랑구 봉화산로 190',
+  { title: '신내2동 동주민센터 IT융합교육장(1층)', address: '서울특별시 중랑구 봉화산로 190',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000216" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -465,7 +465,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000026" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '강서구립봉제산어르신복지센터(강서구보건소 화곡분소 3층)', address: '서울특별시 강서구 초록마을로 15길 12',
+  { title: '강서구립봉제산어르신복지센터(3층)', address: '서울특별시 강서구 초록마을로 15길 12',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000827" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -491,7 +491,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000915" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '메리워드지역아동센터(동부골드아파트210동 관리동3층)', address: '서울특별시 구로구 고척로49 ',
+  { title: '메리워드지역아동센터', address: '서울특별시 구로구 고척로49 ',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000065" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -511,7 +511,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001345" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '우신지역아동센터(우신상가 304호 궁동)', address: '서울특별시 구로구 오리로 1265',
+  { title: '우신지역아동센터', address: '서울특별시 구로구 오리로 1265',
     iwContent:
       '<a href="" style="color:red" target="_blank">교육신청</a>'
  },
@@ -721,9 +721,6 @@ Searching.Word = function () {
 
 new Search();
 
-
-
-
 // 현위치 나타내기
 // 마커를 클릭하면 장소명을 표출할 인포윈도우 입니다
 var infowindow = new kakao.maps.InfoWindow({zIndex:1});
@@ -737,20 +734,38 @@ if (navigator.geolocation) {
             lon = position.coords.longitude; // 경도
         
         var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
-            message = '<div style="padding:5px;">여기에 계신가요?!</div>'; // 인포윈도우에 표시될 내용입니다
+            message = '<div style="padding:5px;margin-left:25px;">나의 위치</div>'; // 인포윈도우에 표시될 내용입니다
         
         // 마커와 인포윈도우를 표시합니다
         displayMarker(locPosition, message);
+      
             
       });
-    
-} else { // HTML5의 GeoLocation을 사용할 수 없을때 마커 표시 위치와 인포윈도우 내용을 설정합니다
+  function panTo() {
+    // GeoLocation을 이용해서 접속 위치를 얻어옵니다
+    navigator.geolocation.getCurrentPosition(function(position) {
+        
+        var lat = position.coords.latitude, // 위도
+            lon = position.coords.longitude; // 경도
+      
+      // 이동할 위도 경도 위치를 생성합니다 
+      var moveLatLon = new kakao.maps.LatLng(lat, lon);
+      
+      // 지도 중심을 부드럽게 이동시킵니다
+      // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
+      map.panTo(moveLatLon); 
+      
+      });
+    }
+  } else { // HTML5의 GeoLocation을 사용할 수 없을때 마커 표시 위치와 인포윈도우 내용을 설정합니다
     
     var locPosition = new kakao.maps.LatLng(33.450701, 126.570667),    
         message = 'geolocation을 사용할수 없어요..'
         
     displayMarker(locPosition, message);
 }
+
+
 
 // 지도에 마커와 인포윈도우를 표시하는 함수입니다
 function displayMarker(locPosition, message) {
@@ -776,4 +791,5 @@ function displayMarker(locPosition, message) {
     // 지도 중심좌표를 접속위치로 변경합니다
     map.setCenter(locPosition);      
 }    
+
 
