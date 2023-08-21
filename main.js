@@ -1,12 +1,8 @@
-ㄹ
-
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
         center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
         level: 5 // 지도의 확대 레벨
     };  
-
-
 
 // 지도를 생성합니다
 var map = new kakao.maps.Map(mapContainer, mapOption);
@@ -16,7 +12,6 @@ var zoomControl = new kakao.maps.ZoomControl();
 
 // 지도의 우측에 확대 축소 컨트롤을 추가한다
 map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
-
 
 
 // 주소-좌표 변환 객체를 생성합니다
@@ -60,7 +55,6 @@ var positions = [
   { title: '서울노인복지센터(2층 컴퓨터교실)', address: '서울특별시 종로구 삼일대로 467' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'},
   { title: '종로장애인가족지원센터(교육장:2층)', address: '서울특별시 종로구 삼청로 91-1' , iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'},
     
-
   //중구
   { title: '중림종합사회복지관', address: '서울특별시 중구 서소문로6길 16' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>'},
   { title: '신당누리센터 누리도서관(1층 교육실)', address: '서울특별시 중구 다산로33길 3',iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>' },
@@ -75,11 +69,9 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr//edc/crse/plcdtl.do?&sch_edc_place_id=20210001127" style="color:blue" target="_blank">교육신청</a>'},
 
 
-
-
+	
   //2권역
   //강북구
-
   { title: '솔샘문화정보도서관', address: '서울특별시 강북구 솔샘로 177',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000016" style="color:blue" target="_blank">교육신청</a>'
@@ -105,7 +97,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001621" style="color:blue" target="_blank">교육신청</a>'
  },
     
-
   //노원구
   { title: '상계종합사회복지관', address: '서울특별시 노원구 덕릉로115나길 25',
     iwContent:
@@ -131,8 +122,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002223" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
 
   //도봉구
   { title: '시립도봉노인종합복지관', address: '서울특별시 도봉구 도당로2길 12-13' ,
@@ -160,8 +149,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002248" style="color:blue" target="_blank">교육신청</a>'
 },
 
-
-
   //동대문구
   { title: '휘경주민센터(3층)', address: '서울특별시 동대문구 외대역동로6길 3',
     iwContent:
@@ -184,7 +171,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002516" style="color:blue" target="_blank">교육신청</a>'
  },
   	
-
 //성북구
 { title: '시립성북노인종합복지관', address: '서울시 성북구 종암로15길 10',
     iwContent:
@@ -212,9 +198,7 @@ var positions = [
  },
 
 
-  
-  
-
+	
   //3권역
   //강동구
   { title: '서울시민대학 동남권캠퍼스(4층)', address: '서울특별시 강동구 고덕로 399',
@@ -250,8 +234,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002302" style="color:blue" target="_blank">교육신청</a>'
  },
 
-
-
   //광진구
   { title: '시립광진노인종합복지관(3층) ', address: '서울특별시 광진구 군자로88' ,
     iwContent:
@@ -278,8 +260,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000087" style="color:blue" target="_blank">교육신청</a>'
  },
 
-
-    
   //성동구
   { title: '성동노인종합복지관(2층 컴퓨터실)', address: '서울특별시 성동구 마조로 77' ,
     iwContent:
@@ -309,7 +289,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000113" style="color:blue" target="_blank">교육신청</a>'
  },
 
-
   //용산구
   { title: '갈월종합사회복지관(3층)', address: '서울특별시 용산구 두텁바위로 25',
     iwContent:
@@ -334,8 +313,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002180" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
 
   //중랑구
   { title: '구립용마경로복지센터', address: '서울 중랑구 용마산로94길 98',
@@ -362,12 +339,9 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000217" style="color:blue" target="_blank">교육신청</a>'
  },
-    
 
 
-
-
-    
+	
   //4권역
   //관악구
   { title: '강감찬관악종합사회복지관', address: '서울특별시 관악구 양녕로 74',
@@ -394,8 +368,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002395" style="color:blue" target="_blank">교육신청</a>'
 },
-    
-
 
   //동작구
   { title: '사당어르신종합복지관', address: '서울특별시 동작구 남부순환로 2081' ,
@@ -427,7 +399,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001092" style="color:blue" target="_blank">교육신청</a>'
 },
 
-
   //서초구
   { title: '서초여성가족플라자 서초센터(5층)', address: '서울특별시 서초구 서운로26길 3' ,
     iwContent:
@@ -450,8 +421,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002372" style="color:blue" target="_blank">교육신청</a>'
  },
 
-
- 
   //송파구
   { title: '올림픽수영장 문화센터(2층)', address: '서울특별시 서초구 서초대로59',
     iwContent:
@@ -477,20 +446,15 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002150" style="color:blue" target="_blank">교육신청</a>'
  },
-    
 
   //강남구
   { title: '강남노인종합복지관(4층)', address: '서울특별시 강남구 삼성로 628',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001070" style="color:blue" target="_blank">교육신청</a>'
  },
-  
 
 
-
-
-
-  
+	
   //5권역
   //강서구
   { title: '염창지역정보센터', address: '서울특별시 강서구 공항대로 61길 50',
@@ -522,9 +486,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000691" style="color:blue" target="_blank">교육신청</a>'
  },
     
-
-
-
   //구로구
   { title: '스마트구로홍보관', address: '서울특별시 구로구 새말로 117-21',
     iwContent:
@@ -559,9 +520,6 @@ var positions = [
       '<a href="" style="color:red" target="_blank">교육신청</a>'
  },
 
-
-
-  
   //금천구
 	{ title: '금천 구청 교육장', address: '서울특별시 금천구 시흥대로 73길 70',
     iwContent:
@@ -587,9 +545,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000064" style="color:blue" target="_blank">교육신청</a>'
  },
-
-
-
 
   //양천구
   { title: '양천어르신종합복지관', address: '서울특별시 양천구 목동로3길 106',
@@ -620,9 +575,6 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002494" style="color:blue" target="_blank">교육신청</a>'
  },
-  
-
-
 
   //영등포구
   { title: '여의도어르신복지센터(2층)', address: '서울특별시 영등포구 여의대방로 372',
@@ -650,37 +602,6 @@ var positions = [
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002145" style="color:blue" target="_blank">교육신청</a>'
  }
 ];
-
-// // 마커를 클릭하면 장소명을 표출할 인포윈도우 입니다
-// var infowindow = new kakao.maps.InfoWindow({zIndex:1});
-
-// // 배움터 위치 출력
-// positions.forEach(function (position) {
-//   // 주소로 좌표를 검색합니다
-//   geocoder.addressSearch(position.address, function (result, status) {
-//     // 정상적으로 검색이 완료됐으면
-//     if (status === kakao.maps.services.Status.OK) {
-//       var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
-//       // 결과값으로 받은 위치를 마커로 표시합니다
-//       var marker = new kakao.maps.Marker({
-//         map: map,
-//         position: coords
-//       });
-//       // 인포윈도우로 장소에 대한 설명을 표시합니다
-//       //변경한 코드
-//       var infowindow = new kakao.maps.InfoWindow({
-//         content:
-//           '<div style="text-align:center;font-size:10px;margin-left:10px;margin-right:10px">' +
-//           position.title +'<br>'+ position.iwContent + "</div>"
-//       });
-
-//       infowindow.open(map, marker);
-//     }
-//   });
-// });
-
-
-
 
 
 // 커스텀 오버레이 -- 교육신청 윈도우 변경
