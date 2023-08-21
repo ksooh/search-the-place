@@ -7,43 +7,35 @@
     <script defer src="main.js"></script>
   </head>
   <body>
-    <script
-      type="text/javascript"
-      src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=ea2d2b3cbd95e510f1f5aa4dc38c9d76&libraries=services"
-    ></script>
-
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=ea2d2b3cbd95e510f1f5aa4dc38c9d76&libraries=services"></script>
+    <br>
     <header>
+    <!--로고 -->
       <h1 id="logo">
-        <a href="#"
+        <a href="#" onClick="window.location.reload()"
           ><img
             class="logo"
             src="https://i.ibb.co/7Ncw7kR/site-Logo3.png"
             alt="site_logo"
         /></a>
       </h1>
-
+    
+    
       <!--검색창 -->
-      <div>
-        <form class="search">
-          <input
-            class="keyword"
-            type="text"
-            name="search"
-            maxlength="255"
-            value=""
-            autocomplete="off"
-            placeholder="주소를 입력하세요"
-          />
-          <button
-            class="search-btn"
-            type="submit"
-            name="click"
-            value=""
-          ></button>
+    <div>
+        <form class='search'>
+           <input class="keyword" type="text" name='search' maxlength=255 value="" autocomplete="off"  placeholder="주소를 입력하세요" />
+          <button class="search-btn" type="submit" name="click" value="">
+          </button>
+            </div>
+          
         </form>
       </div>
+    
+    
     </header>
-
+    
+    
     <div id="map"></div>
   </body>
 </html>
