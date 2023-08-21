@@ -78,3 +78,11 @@ header {
   padding: 5px;
   border: 1px solid black;
 }
+
+
+.caution{
+  margin-left:58px;
+  color:red;
+  font-weight: bold;
+  font-family: "돋움", sans-serif; 
+}
