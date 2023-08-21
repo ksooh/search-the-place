@@ -1,4 +1,4 @@
-
+ㄹ
 
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
     mapOption = {
@@ -147,7 +147,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001088" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '창동아우르네', address: '서울특별시 도봉구 노해로 70길 54',
+  { title: '창동아우르네', address: '서울특별시 도봉구 마들로13길 84',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000565" style="color:blue" target="_blank">교육신청</a>'
  },
