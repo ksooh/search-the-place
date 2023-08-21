@@ -14,32 +14,32 @@ header {
 .logo{
   display: inline-block;
   margin-left: 30px; 
-  width: 380px;
-  height: 150px;
+  width: 245px;
+  height: 110px;
 }
  
 .search {
   position: relative;
-  width:700px;
+  width: 600px;
 }
 
 .keyword {
   width: 100%;
-    border: 1px solid #20A5E8;
-    border-radius: 30px;
-    padding: 15px 25px;
-    margin-left: 10px; 
-  margin-top:87px;
-    font-size: 20px;
+  border: 1px solid #20A5E8;
+  border-radius: 30px;
+  padding: 15px 25px;
+  margin-left: 10px; 
+  margin-top:57px;
+  font-size: 20px;
 }
 
 .keyword::placeholder {
-  font-size: 20px; /* 원하는 값으로 placeholder 글씨 크기를 설정합니다. 예를 들어, 16px로 설정합니다. */
+  font-size: 20px;
 }
 
 #map {
-  width: 1800px;
-  height: 1000px;
+  width: 1200px;
+  height: 800px;
   margin-left: 60px;
 }
 
@@ -51,12 +51,15 @@ header {
   height:35px;
   top: 5px;
   right: 0.5px;  
-  margin-top:92px;
+  margin-top: 61px;
    margin-right:10px;
   background: url("https://i.ibb.co/k6tmJVT/image.png") no-repeat;
   background-size: contain;
   cursor: pointer;
 }
+
+
+
 
 
 .label {
@@ -68,17 +71,17 @@ header {
 }
 
 .label .center {
+ // background-size: 
   display: inline-block;
   height: 55px;
   font-size: 12px;
   line-height: 24px;
   text-align: center; /* 중앙 정렬을 위한 속성 추가 */
   background-color: white;
-  border-radius: 15px;
+   border-radius: 15px;
   padding: 5px;
-  border: 1px solid black;
+   border: 1px solid black;
 }
-
 
 .caution{
   margin-left:58px;
