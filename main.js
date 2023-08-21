@@ -151,7 +151,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000565" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '도봉이숨터', address: '서울특별시 도봉구 마들로13길 84',
+  { title: '도봉이숨터', address: '서울특별시 도봉구 도봉로170길 2',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002123" style="color:blue" target="_blank">교육신청</a>'
  },
