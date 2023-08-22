@@ -22,26 +22,26 @@ var positions = [
   //1권역
   //마포구
   { title: '마포평생학습관 아현분관', address: '서울특별시 마포대로 224', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000910" style="color:blue" target="_blank">교육신청</a>', iwContent: '<a href="" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '우리마포복지관(4층)', address: '서울특별시 마포구 신촌로26길 10', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000106" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '시립마포노인종합복지관(4층)', address: '서울특별시 마포구 서강로68', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000089" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '아현 배움터교육장(3층)', address: '서울특별시 마포대로11길 44-81', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002133" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '마포구청 배움터교육장(지하1층)', address: '서울특별시 월드컵로212', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002134" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '성산1동주민센터(4층)', address: '서울특별시 마포구 성산로4길 15', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000088" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '우리마포복지관', address: '서울특별시 마포구 신촌로26길 10', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000106" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '시립마포노인종합복지관', address: '서울특별시 마포구 서강로68', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000089" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '아현 배움터교육장', address: '서울특별시 마포대로11길 44-81', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002133" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '마포구청 배움터교육장', address: '서울특별시 월드컵로212', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002134" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '성산1동주민센터', address: '서울특별시 마포구 성산로4길 15', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000088" style="color:blue" target="_blank">교육신청</a>' },
   
   //서대문구
   { title: '홍은1동 자치회관', address: '서울특별시 서대문구 세검정로1길45', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000096" style="color:blue" target="_blank">교육신청</a>' },
   { title: '서대문구 노인종합복지관', address: '서울특별시 서대문구 독립문로8길 57', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001094" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '서대문구 노인지회(유진상가 2층)', address: '서울특별시서대문구 통일로 484', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000938" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '서대문구 노인지회', address: '서울특별시서대문구 통일로 484', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000938" style="color:blue" target="_blank">교육신청</a>' },
   { title: '서대문구평생학습관 융복합인재교육센터', address: '서울특별시 서대문구 연희로36길 49', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000098" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '천연동자치회관(4층)', address: '서울특별시 서대문구 독립문로 15-7', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000064" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '북아현동 자치회관(302호)', address: '서울특별시 서대문구 북아현로 24', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002136" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '천연동자치회관', address: '서울특별시 서대문구 독립문로 15-7', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000064" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '북아현동 자치회관', address: '서울특별시 서대문구 북아현로 24', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002136" style="color:blue" target="_blank">교육신청</a>' },
   
   //은평구
-  { title: '은평문화예술회관(지하1층 컴퓨터실)', address: '서울 은평구 녹번로 16', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000193" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '은평문화예술회관', address: '서울 은평구 녹번로 16', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000193" style="color:blue" target="_blank">교육신청</a>' },
   { title: '구립갈현노인복지관', address: '서울특별시 은평구 증산서길 89', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002143" style="color:blue" target="_blank">교육신청</a>' },
   { title: '*은평구립도서관', address: '서울특별시 은평구 통일로 78가길 13-84', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000195" style="color:blue" target="_blank">교육신청</a>' },
   { title: '구립증산정보도서관', address: '서울특별시 은평구 증산로 5길 6', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000197" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '응암정보도서관(2~3층)', address: '서울특별시 은평구 가좌로 179', iwContent: '<iwContent: href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000198" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '응암정보도서관', address: '서울특별시 은평구 가좌로 179', iwContent: '<iwContent: href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000198" style="color:blue" target="_blank">교육신청</a>' },
   { title: '*녹번e편한세상캐슬', address: '서울시 은평구 은평로 220', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002140" style="color:blue" target="_blank">교육신청</a>' },
   { title: '구립역촌노인복지관', address: '서울특별시 은평구 연서로3나길 11-30', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001111" style="color:blue" target="_blank">교육신청</a>' },
   { title: '*증산동주민센터', address: '서울특별시 은평구 통일로89길 12-6', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001112" style="color:blue" target="_blank">교육신청</a>' },
@@ -49,22 +49,22 @@ var positions = [
   { title: '구립불광노인복지관', address: '서울특별시 은평구 연서로32길 17-11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002144" style="color:blue" target="_blank">교육신청</a>' },
   
   //종로구
-  { title: '종로노인종합 사회복지관(3층)', address: '서울특별시 종로구 율곡로19길 17-8',iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '종로노인종합 사회복지관', address: '서울특별시 종로구 율곡로19길 17-8',iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>' },
   { title: '종로노인종합 사회복지관 무악센터', address: '서울특별시 종로구 통일로14길 30' ,iwContent:'<a href="" style="color:red" target="_blank">교육신청</a>'},
-  { title: '종로장애인복지관(3층)', address: '서울특별시 종로구 자하문로89 세종마을 푸르메센터' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '서울노인복지센터(2층 컴퓨터교실)', address: '서울특별시 종로구 삼일대로 467' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '종로장애인가족지원센터(교육장:2층)', address: '서울특별시 종로구 삼청로 91-1' , iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '종로장애인복지관', address: '서울특별시 종로구 자하문로89 세종마을 푸르메센터' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '서울노인복지센터', address: '서울특별시 종로구 삼일대로 467' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '종로장애인가족지원센터', address: '서울특별시 종로구 삼청로 91-1' , iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'},
     
   //중구
   { title: '중림종합사회복지관', address: '서울특별시 중구 서소문로6길 16' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '신당누리센터 누리도서관(1층 교육실)', address: '서울특별시 중구 다산로33길 3',iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '유락종합사회복지관(6층)', address: '서울특별시 중구 퇴계로 460' ,
+  { title: '신당누리센터 누리도서관', address: '서울특별시 중구 다산로33길 3',iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001336" style="color:blue" target="_blank">교육신청</a>' },
+  { title: '유락종합사회복지관', address: '서울특별시 중구 퇴계로 460' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000652" style="color:blue" target="_blank">교육신청</a>'},
   { title: '한국여성생활연구원', address: '서울특별시 중구 명동길 80' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000215" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '서울시민청 스마트서울전시관(지하1층)', address: '서울특별시 중구 세종대로 110' ,
+  { title: '서울시민청 스마트서울전시관', address: '서울특별시 중구 세종대로 110' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr//edc/crse/plcdtl.do?&sch_edc_place_id=20210001127" style="color:blue" target="_blank">교육신청</a>'},
 
@@ -76,7 +76,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000016" style="color:blue" target="_blank">교육신청</a>'
  },
- { title: '한국복지정보통신협의회(강북)', address: '서울특별시 강북구 솔매로50길 43',
+ { title: '한국복지정보통신협의회', address: '서울특별시 강북구 솔매로50길 43',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000654" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -132,7 +132,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001089" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '창동주공19단지A 경로당(1층)', address: '서울특별시 도봉구 노해로70길 54',
+  { title: '창동주공19단지A 경로당', address: '서울특별시 도봉구 노해로70길 54',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001088" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -144,13 +144,13 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002123" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '도봉동어르신복지관(4층컴퓨터실)', address: '서울특별시 도봉구 도봉로169가길 52' ,
+  { title: '도봉동어르신복지관', address: '서울특별시 도봉구 도봉로169가길 52' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002248" style="color:blue" target="_blank">교육신청</a>'
 },
 
   //동대문구
-  { title: '휘경주민센터(3층)', address: '서울특별시 동대문구 외대역동로6길 3',
+  { title: '휘경주민센터', address: '서울특별시 동대문구 외대역동로6길 3',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000076" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -158,7 +158,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000077" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '구립동대문장애인종합복지관(다사랑행복센터 2층)', address: '서울특별시 동대문구 청계천로 521',
+  { title: '구립동대문장애인종합복지관', address: '서울특별시 동대문구 청계천로 521',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001090" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -201,41 +201,41 @@ var positions = [
 	
   //3권역
   //강동구
-  { title: '서울시민대학 동남권캠퍼스(4층)', address: '서울특별시 강동구 고덕로 399',
+  { title: '서울시민대학 동남권캠퍼스', address: '서울특별시 강동구 고덕로 399',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001574" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '강동마을미디어지원센터(6층)', address: '서울특별시 강동구 올림픽로 752' ,
+  { title: '강동마을미디어지원센터', address: '서울특별시 강동구 올림픽로 752' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002391" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '강일동 스마트복지센터(푸르내 102동 302호)', address: '서울 강동구 상일로 12길 95',
+  { title: '강일동 스마트복지센터', address: '서울 강동구 상일로 12길 95',
     iwContent:
       '<a href="" style="color:red" target="_blank">교육신청</a>'
  },
-  { title: '시립강동노인종합복지관(1층)', address: '서울특별시 강동구 동남로71길 32-5' ,
+  { title: '시립강동노인종합복지관', address: '서울특별시 강동구 동남로71길 32-5' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000010" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '강동구립해공도서관(3층)', address: '서울특별시 강동구 올림픽로 702',
+  { title: '강동구립해공도서관', address: '서울특별시 강동구 올림픽로 702',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000071" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '성내종합사회복지관(4층)', address: '서울특별시 강동구 성안로 13길 56',
+  { title: '성내종합사회복지관', address: '서울특별시 강동구 성안로 13길 56',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000909" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '강동 또바기작은도서관(관리동 2층)', address: '서울 강동구 아리수로98길 25' ,
+  { title: '강동 또바기작은도서관', address: '서울 강동구 아리수로98길 25' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002303" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '고덕3단지 SH작은도서관(고덕리엔파크3단지아파트 315동 1층)', address: '서울 강동구 상일로 74',
+  { title: '고덕3단지 SH작은도서관', address: '서울 강동구 상일로 74',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002302" style="color:blue" target="_blank">교육신청</a>'
  },
 
   //광진구
-  { title: '시립광진노인종합복지관(3층) ', address: '서울특별시 광진구 군자로88' ,
+  { title: '시립광진노인종합복지관', address: '서울특별시 광진구 군자로88' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000044" style="color:blue" target="_blank">교육신청</a>'
 },
@@ -243,40 +243,40 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002214" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '광진정보도서관(2층)', address: '서울특별시 광진구 아차산로78길 90',
+  { title: '광진정보도서관', address: '서울특별시 광진구 아차산로78길 90',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000075" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '자양종합사회복지관(4층 컴퓨터실)', address: '서울 광진구 자양번영로 35',
+  { title: '자양종합사회복지관', address: '서울 광진구 자양번영로 35',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001083" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '자양한강도서관(3층 컴퓨터실)', address: '서울특별시 광진구 뚝섬로52길 66' ,
+  { title: '자양한강도서관', address: '서울특별시 광진구 뚝섬로52길 66' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000084" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '중곡문화체육센터 도서관(3층 소강의실)', address: '서울특별시 광진구 능동로 433',
+  { title: '중곡문화체육센터 도서관', address: '서울특별시 광진구 능동로 433',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000087" style="color:blue" target="_blank">교육신청</a>'
  },
 
   //성동구
-  { title: '성동노인종합복지관(2층)', address: '서울특별시 성동구 마조로 77' ,
+  { title: '성동노인종합복지관', address: '서울특별시 성동구 마조로 77' ,
     iwContent:
       '<a href=" https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000114" style="color:blue" target="_blank">교육신청</a>'
 },
   { title: '옥수종합사회복지관', address: '서울 성동구 한림말길 16-5',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002286" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '성동구립금호도서관(4층 교육실)', address: '서울특별시 성동구 난계로 20',
+  { title: '성동구립금호도서관', address: '서울특별시 성동구 난계로 20',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000112" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '성동구립 사근동노인복지센터(2층 교육실)', address: '서울특별시 성동구 사근동길 37',
+  { title: '성동구립 사근동노인복지센터', address: '서울특별시 성동구 사근동길 37',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001102" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '성동장애인종합복지관(2층 교육실)', address: '서울특별시 성동구 청계천로 506',
+  { title: '성동장애인종합복지관', address: '서울특별시 성동구 청계천로 506',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001125" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -290,15 +290,15 @@ var positions = [
  },
 
   //용산구
-  { title: '갈월종합사회복지관(3층)', address: '서울특별시 용산구 두텁바위로 25',
+  { title: '갈월종합사회복지관', address: '서울특별시 용산구 두텁바위로 25',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000186" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '효창종합사회복지관(2층)', address: '서울특별시 용산구 효창원로 146-12',
+  { title: '효창종합사회복지관', address: '서울특별시 용산구 효창원로 146-12',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000184" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '청파노인복지관(4층)', address: '서울특별시 용산구 청파로83길 26',
+  { title: '청파노인복지관', address: '서울특별시 용산구 청파로83길 26',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002120" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -309,7 +309,7 @@ var positions = [
   { title: '시립용산노인종합복지관', address: '서울 용산구 독서당로11길 16' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000183" style="color:blue" target="_blank">교육신청</a>'},
-  { title: '용산시각장애인연합회(3층)', address: '서울 용산구 서빙고로 245',
+  { title: '용산시각장애인연합회', address: '서울 용산구 서빙고로 245',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002180" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -323,11 +323,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000219" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '신내2동 동주민센터 IT융합교육장(1층)', address: '서울특별시 중랑구 봉화산로 190',
+  { title: '신내2동 동주민센터 IT융합교육장', address: '서울특별시 중랑구 봉화산로 190',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000216" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '중랑상봉도서관(3~5층)', address: '서울 중랑구 동일로114길 10',
+  { title: '중랑상봉도서관', address: '서울 중랑구 동일로114길 10',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002335" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -335,7 +335,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000218" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '신내경로복지센터(3층 정보검색실)', address: '서울특별시 중랑구 망우로65길 20',
+  { title: '신내경로복지센터', address: '서울특별시 중랑구 망우로65길 20',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000217" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -352,11 +352,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001080" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '미디어센터 관악(6층)', address: '서울특별시 관악구 남부순환로 1491',
+  { title: '미디어센터 관악', address: '서울특별시 관악구 남부순환로 1491',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002100" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '성현동주민센터(정보화교육장)', address: '서울시 관악구 구암길 38' ,
+  { title: '성현동주민센터', address: '서울시 관악구 구암길 38' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000032" style="color:blue" target="_blank">교육신청</a>'
 },
@@ -374,19 +374,19 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002059" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '흑석동 주민센터(2층)', address: '서울특별시 동작구 흑석한강로 11' ,
+  { title: '흑석동 주민센터', address: '서울특별시 동작구 흑석한강로 11' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000086" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '시립동작노인종합복지관(지하1층)', address: '서울특별시 동작구 상도로 11길 7',
+  { title: '시립동작노인종합복지관', address: '서울특별시 동작구 상도로 11길 7',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000084" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '시립발달장애인복지관(2층 207호)', address: '서울특별시 동작구 여의대방로20나길 39',
+  { title: '시립발달장애인복지관', address: '서울특별시 동작구 여의대방로20나길 39',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001093" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '유한양행 교육장(9층 전산교육장)', address: '서울특별시 동작구 노량진로74',
+  { title: '유한양행 교육장', address: '서울특별시 동작구 노량진로74',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000083" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -394,13 +394,13 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002184" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '동작구장애인가족지원센터(5층)', address: '서울특별시 동작구 보라매로5가길 16' ,
+  { title: '동작구장애인가족지원센터', address: '서울특별시 동작구 보라매로5가길 16' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001092" style="color:blue" target="_blank">교육신청</a>'
 },
 
   //서초구
-  { title: '서초여성가족플라자 서초센터(5층)', address: '서울특별시 서초구 서운로26길 3' ,
+  { title: '서초여성가족플라자 서초센터', address: '서울특별시 서초구 서운로26길 3' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000123" style="color:blue" target="_blank">교육신청</a>'
 },
@@ -408,7 +408,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002216" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '서초IT배움센터(양재역 환승주차장 5층)', address: '서울특별시 서초구 강남대로221',
+  { title: '서초IT배움센터', address: '서울특별시 서초구 강남대로221',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002215" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -422,23 +422,23 @@ var positions = [
  },
 
   //송파구
-  { title: '올림픽수영장 문화센터(2층)', address: '서울특별시 서초구 서초대로59',
+  { title: '올림픽수영장 문화센터', address: '서울특별시 서초구 서초대로59',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002336" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '마천종합사회복지관(3층 교육장)', address: '서울특별시 송파구 마천로 65길 4' ,
+  { title: '마천종합사회복지관', address: '서울특별시 송파구 마천로 65길 4' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001106" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '송파복지센터(2층)', address: '서울특별시 송파구 충민로 184' ,
+  { title: '송파복지센터', address: '서울특별시 송파구 충민로 184' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001107" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '송파종합사회복지관(2층)', address: '서울특별시 송파구 오금로51길 34' ,
+  { title: '송파종합사회복지관', address: '서울특별시 송파구 오금로51길 34' ,
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002126" style="color:blue" target="_blank">교육신청</a>'
 },
-  { title: '송파실벗뜨락(6층)', address: '서울특별시 송파구 백제고분로 42길 5',
+  { title: '송파실벗뜨락', address: '서울특별시 송파구 백제고분로 42길 5',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002148" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -448,7 +448,7 @@ var positions = [
  },
 
   //강남구
-  { title: '강남노인종합복지관(4층)', address: '서울특별시 강남구 삼성로 628',
+  { title: '강남노인종합복지관', address: '서울특별시 강남구 삼성로 628',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001070" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -461,11 +461,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000025" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '강서구립곰달래어르신복지센터(3층)', address: '서울특별시 강서구 강서로 5길 50',
+  { title: '강서구립곰달래어르신복지센터', address: '서울특별시 강서구 강서로 5길 50',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000026" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '강서구립봉제산어르신복지센터(3층)', address: '서울특별시 강서구 초록마을로 15길 12',
+  { title: '강서구립봉제산어르신복지센터', address: '서울특별시 강서구 초록마을로 15길 12',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000827" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -477,11 +477,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000027" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '에코미래학습코칭센터(SB타워 511호)', address: '서울특별시 강서구 마곡서로56',
+  { title: '에코미래학습코칭센터', address: '서울특별시 강서구 마곡서로56',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002318" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '장애여성 인력개발센터(귀뚜라미홈시스텔 2층)', address: '서울특별시 강서구 화곡로 346',
+  { title: '장애여성 인력개발센터', address: '서울특별시 강서구 화곡로 346',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000691" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -499,11 +499,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000790" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '구로파랑새지역아동센터(3층)', address: '서울특별시 구로구 구로동로 38길 32',
+  { title: '구로파랑새지역아동센터', address: '서울특별시 구로구 구로동로 38길 32',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000093" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '꿈나래지역아동센터(3층)', address: '서울특별시 구로구 고척로6길 29',
+  { title: '꿈나래지역아동센터', address: '서울특별시 구로구 고척로6길 29',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000093" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -525,7 +525,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000063" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '독산2동주민센터(3층)', address: '서울특별시 금천구 독산로179',
+  { title: '독산2동주민센터', address: '서울특별시 금천구 독산로179',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000077" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -559,7 +559,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000166" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '양천구50플러스센터(행정복합타운 4층)', address: '서울특별시 양천구 남부순환로 83길 53',
+  { title: '양천구50플러스센터', address: '서울특별시 양천구 남부순환로 83길 53',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002135" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -577,7 +577,7 @@ var positions = [
  },
 
   //영등포구
-  { title: '여의도어르신복지센터(2층)', address: '서울특별시 영등포구 여의대방로 372',
+  { title: '여의도어르신복지센터', address: '서울특별시 영등포구 여의대방로 372',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000140" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -585,7 +585,7 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000141" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '시니어행복발전센터(대림1동 보건소분소 2층)', address: '서울특별시 영등포구 디지털로 441',
+  { title: '시니어행복발전센터', address: '서울특별시 영등포구 디지털로 441',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000131" style="color:blue" target="_blank">교육신청</a>'
  },
@@ -593,11 +593,11 @@ var positions = [
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000144" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '영등포동자치회관(2층)', address: '서울특별시 영등포구 국회대로 44길 4',
+  { title: '영등포동자치회관', address: '서울특별시 영등포구 국회대로 44길 4',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002400" style="color:blue" target="_blank">교육신청</a>'
  },
-  { title: '양평2동 주민센터(4층)', address: '서울특별시 영등포구 선유로47길 30',
+  { title: '양평2동 주민센터', address: '서울특별시 영등포구 선유로47길 30',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002145" style="color:blue" target="_blank">교육신청</a>'
  }
