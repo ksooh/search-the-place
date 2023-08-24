@@ -521,7 +521,7 @@ var positions = [
  },
   { title: '우신지역아동센터', address: '서울특별시 구로구 오리로 1265',
     iwContent:
-      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/place.do?sch_area_cd=101&sch_signgu_cd=10107&sch_oper_sttus_se_cd=&sch_edc_plc_se_cd=&sch_edc_place_nm=" style="color:red" target="_blank">교육신청</a>'
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002141" style="color:blue" target="_blank">교육신청</a>'
  },
   { title: '구로노인종합복지관', address: '서울특별시 구로구 새말로 16길 7',
     iwContent:
