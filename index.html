@@ -1,43 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      user-scaleable="yes"
+    >
     <title>나의 집 근처 디지털배움터</title>
     <link href="style.css" rel="stylesheet" />
     <script defer src="main.js"></script>
   </head>
+
   <body>
     <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=ea2d2b3cbd95e510f1f5aa4dc38c9d76&libraries=services"></script>
     <br>
-    <header>
-    <!--로고 -->
-      <h1 id="logo">
-        <a href="#" onClick="window.location.reload()"
+  
+    <div class="wrap2">
+      <header>
+        <!--로고 -->
+        <h1 id="logo">
+          <a href="#" onClick="window.location.reload()"
           ><img
-            class="logo"
-            src="https://i.ibb.co/7Ncw7kR/site-Logo3.png"
-            alt="site_logo"
-        /></a>
-      </h1>
-    
-    
-      <!--검색창 -->
-    <div>
-        <form class='search'>
-           <input class="keyword" type="text" name='search' maxlength=255 value="" autocomplete="off"  placeholder="주소를 입력하세요" />
+          class="logo"
+          src="https://i.ibb.co/7Ncw7kR/site-Logo3.png"
+          alt="site_logo"
+          /></a>
+        </h1>
+  
+  
+        <!--검색창 -->
+        <div>
+         <form class='search'>
+         <input class="keyword" type="text" name='search' maxlength=255 value="" autocomplete="off"  placeholder="주소를 입력하세요" />
           <button class="search-btn" type="submit" name="click" value="">
           </button>
-            </div>
-          
-        </form>
-      </div>
-    </header>
-    <p class='caution'>* 실제교육장소가 다를 수 있으니 반드시 확인하시고 신청 바랍니다. * 위치 액서스 허용 권장 - '나의 위치로 이동하기' 가능</p>
+        </div>
+        
+      </form>
+    </div>
+  </header>
 
-    
-    <div id="map"></div>
-    <p>
-      <button class='curLo' onclick="panTo()">나의 위치로 이동하기</button> 
-    </p>
-  </body>
+
+  <p class='caution'>* 실제교육장소가 다를 수 있으니 반드시 확인하시고 신청 바랍니다.<br>* 위치 액서스 허용 권장 - '나의 위치로 이동하기' 가능</p>
+
+  
+  <div class="wrap">
+    <div id="map">
+  </div>
+
+  <p class='btn'>
+    <button class='curLo' onclick="panTo()">나의 위치로 이동하기</button> 
+  </p>
+  
+  <br><br>
+
+</body>
+
+
+
 </html>
+

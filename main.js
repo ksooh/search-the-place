@@ -13,9 +13,17 @@ var zoomControl = new kakao.maps.ZoomControl();
 // 지도의 우측에 확대 축소 컨트롤을 추가한다
 map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
+var mapTypeControl=new daum.maps.MapTypeControl();
+var zoomControl=new daum.maps.ZoomControl();
+map.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
+
 
 // 주소-좌표 변환 객체를 생성합니다
 var geocoder = new kakao.maps.services.Geocoder();
+
+
+var test= '@Model["RoadAddr"]@Model["RoadAddrSub"]';
+console.log(test)
 
 var positions = [
   
@@ -50,7 +58,7 @@ var positions = [
   
   //종로구
   { title: '종로노인종합 사회복지관', address: '서울특별시 종로구 율곡로19길 17-8',iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>' },
-  { title: '종로노인종합 사회복지관 무악센터', address: '서울특별시 종로구 통일로14길 30' ,iwContent:'<a href="" style="color:red" target="_blank">교육신청</a>'},
+  { title: '종로노인종합 사회복지관 무악센터', address: '서울특별시 종로구 통일로14길 30' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/place.do?sch_area_cd=101&sch_signgu_cd=10123&sch_oper_sttus_se_cd=&sch_edc_plc_se_cd=&sch_edc_place_nm=" style="color:red" target="_blank">교육신청</a>'},
   { title: '종로장애인복지관', address: '서울특별시 종로구 자하문로89 세종마을 푸르메센터' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000206" style="color:blue" target="_blank">교육신청</a>'},
   { title: '서울노인복지센터', address: '서울특별시 종로구 삼일대로 467' ,iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000205" style="color:blue" target="_blank">교육신청</a>'},
   { title: '종로장애인가족지원센터', address: '서울특별시 종로구 삼청로 91-1' , iwContent:'<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001113" style="color:blue" target="_blank">교육신청</a>'},
@@ -211,7 +219,7 @@ var positions = [
 },
   { title: '강일동 스마트복지센터', address: '서울 강동구 상일로 12길 95',
     iwContent:
-      '<a href="" style="color:red" target="_blank">교육신청</a>'
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/place.do?sch_area_cd=101&sch_signgu_cd=10102&sch_oper_sttus_se_cd=&sch_edc_plc_se_cd=&sch_edc_place_nm=" style="color:red" target="_blank">교육신청</a>'
  },
   { title: '시립강동노인종합복지관', address: '서울특별시 강동구 동남로71길 32-5' ,
     iwContent:
@@ -513,11 +521,11 @@ var positions = [
  },
   { title: '우신지역아동센터', address: '서울특별시 구로구 오리로 1265',
     iwContent:
-      '<a href="" style="color:red" target="_blank">교육신청</a>'
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/place.do?sch_area_cd=101&sch_signgu_cd=10107&sch_oper_sttus_se_cd=&sch_edc_plc_se_cd=&sch_edc_place_nm=" style="color:red" target="_blank">교육신청</a>'
  },
   { title: '구로노인종합복지관', address: '서울특별시 구로구 새말로 16길 7',
     iwContent:
-      '<a href="" style="color:red" target="_blank">교육신청</a>'
+      '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/place.do?sch_area_cd=101&sch_signgu_cd=10107&sch_oper_sttus_se_cd=&sch_edc_plc_se_cd=&sch_edc_place_nm=" style="color:red" target="_blank">교육신청</a>'
  },
 
   //금천구
@@ -791,5 +799,4 @@ function displayMarker(locPosition, message) {
     // 지도 중심좌표를 접속위치로 변경합니다
     map.setCenter(locPosition);      
 }    
-
 
