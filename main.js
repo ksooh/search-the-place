@@ -775,10 +775,11 @@ if (navigator.geolocation) {
 
 
 
+
 // 지도에 마커와 인포윈도우를 표시하는 함수입니다
 function displayMarker2(locPosition, message) {
-  var imageSrc = 'https://i.ibb.co/QQtBkXB/image.png', // 마커이미지의 주소입니다   
-      imageSize = new kakao.maps.Size(32, 50), // 마커이미지의 크기입니다
+  var imageSrc = 'https://i.ibb.co/xzhfMGz/3.png" alt="placeholder-684908', // 마커이미지의 주소입니다   
+      imageSize = new kakao.maps.Size(43 , 45), // 마커이미지의 크기입니다
       imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize)
 
