@@ -1,6 +1,6 @@
 
 /* mobile 규격 */
-@media screen and (max-width: 540px){
+@media screen and (max-width: 800px){
   .wrap{
         position:relative;
         max-width:500px;
@@ -103,7 +103,7 @@
 }
 
 
-@media screen and (min-width: 541px) {
+@media screen and (min-width: 801px) {
   * {
     box-sizing: border-box;
   }
