@@ -1,72 +1,90 @@
 
-/* mobile 규격 */
-@media screen and (max-width: 800px){
-  .wrap{
-        position:relative;
-        max-width:500px;
-        max-height: 300px;
-        width:100%;
-    }
-  
-  .logo{
-      width: 200px;
-      height: 80px;
-  }
-  
+/* mobile ver. */
+@media screen and (max-width: 1000px){
   * {
     box-sizing: border-box;
   }
+
+  body {
+    text-align:center;
+  }
+
+  header {
+     text-align:center;
+    margin-top:-30px;
+  } 
+ 
+
+  .logo{
+    float:center;
+    margin-left:auto; margin-right:auto;
+    width: 200px;
+    height: 80px;
+    margin-bottom:-25px;
+  }
+  
   .search {
-      position: relative;
-        max-width:340px;
-        margin-top:-20px;
+    float:center;
+    position: relative;
+    max-width: 1200px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:32px;
+    width:100%;
   }
-    
+
   .keyword {
-        width: 100%;
-        border: 1px solid #20A5E8;
-        border-radius: 30px;
-        padding: 10px 15px;
-        margin-left: 10px; 
-        font-size: 15px;
+    margin: 0 auto; 
+    width: 100%;
+    border: 1px solid #20A5E8;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 15px;
   }
-    
+
+
   .keyword::placeholder {
-        margin: 0 auto; 
-        font-size: 15px;
+    margin: 0 auto; 
+    font-size: 15px;
   }
-    
+
+  .wrap{
+/*     position:relative; */
+/*     max-width:1200px; */
+    height: 350px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
   #map {
-    position:absolute;
-    z-index:1;
-    top:0;left:0;
     width:100%;
     height:100%;
+/*     margin-left: 60px; */
   }
-    
+
   .search-btn {
+    margin: 0;
     border: none;
     position: absolute;
     width: 30px;
-    height: 30px;
-    top: -51px;
+    height:30px;
     right: 0.5px;  
-    margin-top: 58px;
-    margin-right:10px;
+    margin-top: 5px;
+    margin-right:15px;
     background: url("https://i.ibb.co/k6tmJVT/image.png") no-repeat;
     background-size: contain;
     cursor: pointer;
   }
-    
-    
+
   .label {
     margin-bottom: 96px;
   }
-    
+
   .label * {
     display: inline-block;vertical-align: top;
   }
-    
+
   .label .center {
     display: inline-block;
     height: 55px;
@@ -78,55 +96,74 @@
     padding: 5px;
     border: 1px solid black;
   }
+
+  .wrap2{
+    max-width:1200px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
     
+  }
+  
+  
   .caution{
+    text-align: left; 
+    padding:15px;
     color:red;
     font-weight: bold;
     font-family: "돋움", sans-serif; 
-    font-size:13.5px;
+    font-size:14px;
   }
-    
-    
+
+/*   .btn{
+    text-align: left; 
+  } */
+
   .curLo{
     background-color: #20A5E8;
-    width: 150px;
+    width: 250px;
     border: 0px /*solid #20A5E8*/;
     border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 12px;
+    padding: 15px 20px;
+    font-size: 15px;
     font-weight: bold;
     font-family: "나눔고딕", sans-serif;
     color:white;
-    margin-top:310px;
   }
-
 }
 
-
-@media screen and (min-width: 801px) {
+/* desktop ver. */
+@media screen and (min-width: 1001px) {
   * {
     box-sizing: border-box;
   }
 
   body {
-    margin-top: 0px;
-    margin-left: 150px;
+    text-align:center;
   }
 
   header {
-    display: flex;
+     text-align:center;
+    margin-top:-15px;
   } 
+ 
 
   .logo{
-    display: inline-block;
-    margin-left: 30px; 
-    width: 245px;
-    height: 105px;
+    float:center;
+    margin-left:auto; margin-right:auto;
+    width: 280px;
+    height: 120px;
+    margin-bottom:-20px;
   }
   
   .search {
+    float:center;
     position: relative;
-    width: 600px;
+    max-width: 1200px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:32px;
+    width:100%;
   }
 
   .keyword {
@@ -135,8 +172,8 @@
     border: 1px solid #20A5E8;
     border-radius: 30px;
     padding: 15px 25px;
-    margin-left: 10px; 
-    margin-top:54px;
+/*     margin-left: 10px;  */
+/*     margin-top:54px; */
     font-size: 20px;
   }
 
@@ -147,16 +184,18 @@
   }
 
   .wrap{
-    position:relative;
+/*     position:relative; */
     max-width:1200px;
     height: 650px;
     width:100%;
+    margin-left:auto;
+    margin-right:auto;
   }
 
   #map {
     width:100%;
     height:100%;
-    margin-left: 60px;
+/*     margin-left: 60px; */
   }
 
   .search-btn {
@@ -167,8 +206,8 @@
     height:35px;
     top: 5px;
     right: 0.5px;  
-    margin-top: 58px;
-    margin-right:10px;
+    margin-top: 5px;
+    margin-right:15px;
     background: url("https://i.ibb.co/k6tmJVT/image.png") no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -185,7 +224,7 @@
   .label .center {
     display: inline-block;
     height: 55px;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     text-align: center; /* 중앙 정렬을 위한 속성 추가 */
     background-color: white;
@@ -194,23 +233,33 @@
     border: 1px solid black;
   }
 
+  .wrap2{
+    max-width:1200px;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    
+  }
+  
+  
   .caution{
-    margin-top:-10px;
-    margin-left:58px;
+    text-align: left; 
+    padding:15px;
     color:red;
     font-weight: bold;
     font-family: "돋움", sans-serif; 
   }
 
-
+/*   .btn{
+    text-align: left; 
+  } */
 
   .curLo{
     background-color: #20A5E8;
-    width: 250px;
+    width: 450px;
     border: 0px /*solid #20A5E8*/;
     border-radius: 30px;
     padding: 15px 25px;
-    margin-left:58px;
     font-size: 20px;
     font-weight: bold;
     font-family: "나눔고딕", sans-serif;
