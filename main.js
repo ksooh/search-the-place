@@ -29,7 +29,7 @@ var positions = [
   
   //1권역
   //마포구
-  { title: '마포평생학습관 아현분관', address: '서울특별시 마포대로 224', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000910" style="color:blue" target="_blank">교육신청</a>', iwContent: '<a href="" style="color:blue" target="_blank">교육신청</a>'},
+  { title: '마포평생학습관 아현분관', address: '서울특별시 마포대로 224', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000910" style="color:blue" target="_blank">교육신청</a>', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000910" style="color:blue" target="_blank">교육신청</a>'},
   { title: '우리마포복지관', address: '서울특별시 마포구 신촌로26길 10', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000106" style="color:blue" target="_blank">교육신청</a>' },
   { title: '시립마포노인종합복지관', address: '서울특별시 마포구 서강로68', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000089" style="color:blue" target="_blank">교육신청</a>' },
   { title: '아현 배움터교육장', address: '서울특별시 마포대로11길 44-81', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002133" style="color:blue" target="_blank">교육신청</a>' },
