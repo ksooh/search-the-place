@@ -608,7 +608,83 @@ var positions = [
   { title: '양평2동 주민센터', address: '서울특별시 영등포구 선유로47길 30',
     iwContent:
       '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002145" style="color:blue" target="_blank">교육신청</a>'
- }
+ },
+
+
+
+ //인천사업단
+
+  //중구
+   { title: '중구청', address: '인천시 중구 해안동2가 8-12', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000535" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '영종하늘도서관', address: '인천광역시 중구 하늘중앙로 132', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000348" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '영종1동 행정복지센터', address: '인천광역시 중구 하늘달빛로 120', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000826" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '영종공감복지센터', address: '인천광역시 중구 하늘달빛로 78', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000379" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '성미가엘종합사회복지관', address: '인천광역시 중구 송학로 40', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000378" style="color:blue" target="_blank">교육신청</a>' },
+
+
+
+  //동구
+   { title: '동구청 정보화교육장', address: '인천 동구 금곡로 67', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000500" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '동구 장애인 주간보호센터', address: '인천 동구 만석로 53', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000477" style="color:blue" target="_blank">교육신청</a>' },
+   
+   //미추홀구
+   { title: '용현교육관', address: '인천광역시 미추홀구 용마루로 64', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002546" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '도화2,3동 행정복지센터', address: '인천광역시 미추홀구 장고개로 29-1', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001242" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '미추홀구청 정보화교육장', address: '인천광역시 미추홀구 독정이로 95', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000491" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '은혜비전센터', address: '인천광역시 미추홀구 길파로27번길 66-1 ', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002443" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '용현5동 행정복지센터', address: '인천광역시 미추홀구 토금북로 60', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002368" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '주안영상미디어센터', address: '인천광역시 미추홀구 주안1동 석바위로 68', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002369" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '제물포지하도상가 배움터', address: '인천광역시 미추홀구 경인로 지하 125', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002370" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '수봉도서관', address: '인천광역시 미추홀구 경인로 218', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000458" style="color:blue" target="_blank">교육신청</a>' },
+   //{ title: '옹진군청', address: '인천광역시 미추홀구 매소홀로 120 (용현동) ', iwContent: '<a href="" style="color:blue" target="_blank">교육신청</a>' },
+ 
+
+   //연수구
+   { title: 'K디지털 플랫폼', address: '인천시 연수구 인천타워대로 99', iwContent: '<a href="" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '에듀메이커스페이스', address: '인천광역시 연수구 송도과학로 32', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000536" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '연수구청', address: '인천광역시 연수구 원인재로 115', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000377" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '송도 글로벌 평생학습관', address: '인천광역시 연수구 송도문화로 119', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002309" style="color:blue" target="_blank">교육신청</a>' },
+
+
+
+   //남동구
+   { title: '미추홀도서관', address: '인천광역시 남동구 인주대로776번길 53', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000499" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '만월종합사회복지관', address: '인천광역시 남동구 서판로54번길 12', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000375" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '인천남동지역 자활센터', address: '인천광역시 남동구 만수로 12-6', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001239" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '논현종합사회복지관', address: '인천광역시 남동구 호구포로 292', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002121" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '남동구 평생학습관', address: '인천광역시 남동구 소래로 645', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000374" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '북한이탈주민센터', address: '인천광역시 남동구 앵고개로941번길 11-22', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002340" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '만수3동 행정복지센터', address: '	인천광역시 남동구 서판로 11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001236" style="color:blue" target="_blank">교육신청</a>' },
+
+
+
+   //부평구
+   { title: '부평6동 행정복지센터', address: '인천광역시 부평구 동수로 70', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002122" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '부개2동 행정복지센터', address: '인천광역시 부평구 동수천로 104', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000030" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '부평2동 행정복지센터', address: '인천광역시 부평구 부영로 23', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000457" style="color:blue" target="_blank">교육신청</a>' },
+
+
+
+   //계양구
+   { title: '계양구청 평생학습관', address: '인천광역시 계양구 계산새로 88', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000492" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '효성노인문화센터', address: '인천광역시 계양구 봉오대로 516', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001231" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '계산노인문화센터', address: '인천광역시 계양구 경명대로 980', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000476" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '계양구노인복지관', address: '인천광역시 계양구 효서로341번길 11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000478" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '인천광역시교육청 계양도서관', address: '인천광역시 계양구 계양산로134번길 18', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20200000137" style="color:blue" target="_blank">교육신청</a>' },
+
+
+   //서구
+   { title: '청라2동 행정복지센터', address: '인천광역시 서구 청라커낼로 269', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000510" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '가좌4동 행정복지센터', address: '인천광역시 서구 장고개로280번길 14', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000480" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '당하동 행정복지센터', address: '인천광역시 서구 청마로167번길 19', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000509" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '연희노인문화센터', address: '인천광역시 서구 승학로 263', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000460" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '푸른숲 작은도서관', address: '인천광역시 서구 서달로49번길 10', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000535" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '서구청', address: '인천광역시 서구 서곶로 307', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002162" style="color:blue" target="_blank">교육신청</a>' },
+ 
+  //강화군
+   { title: '강화군 행복센터', address: '인천광역시 강화군 강화읍 남문로 19 ', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000486" style="color:blue" target="_blank">교육신청</a>' }
+
+ 
 ];
 
 
