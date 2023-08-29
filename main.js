@@ -654,7 +654,8 @@ var positions = [
    { title: '논현종합사회복지관', address: '인천광역시 남동구 호구포로 292', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002121" style="color:blue" target="_blank">교육신청</a>' },
    { title: '남동구 평생학습관', address: '인천광역시 남동구 소래로 645', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000374" style="color:blue" target="_blank">교육신청</a>' },
    { title: '북한이탈주민센터', address: '인천광역시 남동구 앵고개로941번길 11-22', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002340" style="color:blue" target="_blank">교육신청</a>' },
-   { title: '만수3동 행정복지센터', address: '	인천광역시 남동구 서판로 11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001236" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '만수3동 행정복지센터', address: '인천광역시 남동구 서판로 11', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210001236" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '신한 학이재', address: '인천광역시 남동구 남동대로 776', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210002550" style="color:blue" target="_blank">교육신청</a>' },
 
 
 
