@@ -638,7 +638,7 @@ var positions = [
    { title: '수봉도서관', address: '인천광역시 미추홀구 경인로 218', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20210000458" style="color:blue" target="_blank">교육신청</a>' },
 
 	//옹진군
-   { title: '옹진군청', address: '인천광역시 미추홀구 매소홀로 120 (용현동) ', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000520" style="color:blue" target="_blank">교육신청</a>' },
+   { title: '옹진군청', address: '인천광역시 미추홀구 매소홀로 120', iwContent: '<a href="https://www.xn--2z1bw8k1pjz5ccumkb.kr/edc/crse/plcdtl.do?&sch_edc_place_id=20190000520" style="color:blue" target="_blank">교육신청</a>' },
  
 
    //연수구
